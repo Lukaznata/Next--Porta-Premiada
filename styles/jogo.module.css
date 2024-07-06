@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  margin: 25px 0;
 }
 
 .portas {
@@ -11,6 +12,7 @@
   align-self: stretch;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 50px 0;
 }
 
 .botoes {
@@ -21,8 +23,26 @@
 
 .botoes button {
   background-color: #c0392c;
-  color: #fff;
+  color: #e6e6e6;
   font-size: 2rem;
   border: none;
+  cursor: pointer;
   padding: 10px 25px;
+  transition: 0.2s ease-in-out;
+  border-radius: 10px;
+}
+
+.botoes button:hover {
+  color: #fff;
+  background-color: #7f1107;
+}
+
+.msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+}
+.msg ul {
+  list-style: none;
 }

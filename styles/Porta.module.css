@@ -17,6 +17,8 @@
   border-right: 5px solid brown;
   width: 90%;
   background-color: #0005;
+  cursor: pointer;
+  transition: 0.199s ease-in;
 }
 
 .porta {
@@ -26,10 +28,22 @@
   flex-grow: 1;
   background-color: chocolate;
   padding: 15px;
+  transition: 0.3s ease-in-out;
+}
+.porta:hover {
+  background-color: rgb(210, 129, 30);
 }
 
 .numero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 3rem;
+  background-color: rgba(164, 82, 23, 0.438);
+  width: 5rem;
+  height: 3rem;
+  border-radius: 5px;
+  color: rgb(232, 232, 232);
 }
 
 .macaneta {
@@ -40,6 +54,10 @@
   height: 20px;
   border-radius: 10px;
   background-color: brown;
+  transition: 0.2s linear;
+}
+.macaneta:hover {
+  background-color: yellow;
 }
 
 .chao {
