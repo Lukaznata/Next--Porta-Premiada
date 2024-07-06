@@ -50,9 +50,9 @@ Para rodar o projeto localmente, siga os passos abaixo:
 
 ## Como Jogar
 
-1. Ao iniciar o jogo, você verá várias portas na tela.
-2. Escolha uma porta clicando nela.
-3. Você terá um número limitado de tentativas para encontrar a porta com o presente.
+1. O ideal é jogar em dupla, vocês escolhem a quantidade de portas que terão e o desafiador escolhe a porta com o presente.
+2. Vocês podem definir suas regras referente a quantidade de tentativas ou se alguma porta é aberta quando o participante erra.
+
 
 
 
