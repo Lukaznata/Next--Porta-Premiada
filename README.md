@@ -33,7 +33,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/mosty-hall-game.git
+    git clone https://github.com/Lukaznata/Next--Porta-Premiada/tree/main.git
     cd mosty-hall-game
     ```
 
