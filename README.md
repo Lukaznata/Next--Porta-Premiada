@@ -1,40 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next--Porta-Premiada
 
-## Getting Started
+## Link Para Acessar
 
-First, run the development server:
+https://porta-premiada-psi.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este é um projeto de um jogo baseado no famoso problema do Monty Hall. O jogo foi desenvolvido usando Next.js e TypeScript, seguindo princípios de programação orientada a objetos (POO) e as boas práticas SOLID.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Sumário
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [Descrição do Jogo](#descrição-do-jogo)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação](#instalação)
+- [Como Jogar](#como-jogar)
+- [Contribuição](#contribuição)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Descrição do Jogo
 
-## Learn More
+No jogo Mosty Hall, o participante deve escolher uma porta dentre várias portas criadas pelo desafiador. Apenas uma das portas contém um presente. O participante tem um número limitado de tentativas para encontrar o presente.
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologias Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js**: Framework React para desenvolvimento de aplicações web.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- **Programação Orientada a Objetos (POO)**: Utilizada para interação e criação das portas.
+- **Princípios SOLID**: Seguidos para garantir boas práticas de POO.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Instalação
 
-## Deploy on Vercel
+Para rodar o projeto localmente, siga os passos abaixo:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/mosty-hall-game.git
+    cd mosty-hall-game
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+3. Execute o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
+
+4. Abra o navegador e acesse `http://localhost:3000`.
+
+## Como Jogar
+
+1. Ao iniciar o jogo, você verá várias portas na tela.
+2. Escolha uma porta clicando nela.
+3. Você terá um número limitado de tentativas para encontrar a porta com o presente.
+4. O jogo informará se você ganhou ou perdeu após esgotar suas tentativas ou encontrar o presente.
+
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests. Por favor, siga o código de conduta e as diretrizes de contribuição.
