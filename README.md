@@ -53,7 +53,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 1. Ao iniciar o jogo, você verá várias portas na tela.
 2. Escolha uma porta clicando nela.
 3. Você terá um número limitado de tentativas para encontrar a porta com o presente.
-4. O jogo informará se você ganhou ou perdeu após esgotar suas tentativas ou encontrar o presente.
+
 
 
 ## Contribuição
